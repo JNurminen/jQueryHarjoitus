@@ -7,16 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="index.js"></script>
+    <script src="Data.js"></script>
 </head>
 <body>
     <header>
         <h1>POWERIA</h1>
         <button class="myButton" id="b1">Tuotteet</button>
         <button class="myButton" id="b3">Palvelut</button>
-        <button class="myButton" id="b4">Työntekijät</button>
+        <button class="myButton" id="b4">Outlet</button>
         <button class="myButton" id="b5">Yhteystiedot</button>
+        <button class="myButton" onclick="fetchData()">Json</button>
     </header>
 <div class="main">
+<center>
+<p id="sisältö"></p>
+</center>
 <div class="content"></div>
 
 </div>

@@ -30,19 +30,19 @@ $(document).ready(function(){
       
     })
     $("#b4").click(function(){
-      $(".content").empty();
-      var txt2 = $("<p></p>").text("Jani Nurmi p. 040-2258890 sposti: jn@gmail.com");
-      var txt3 = $("<p></p>").text("Alpo Kuusi p. 0400-1122334 sposti: ss@hotmail.com");
-      var txt4 = $("<p></p>").text("Ilkka Mänty p. 050-1234567 sposti: im@gmail.com.com");
-    $(".content").append(txt2, txt3, txt4)
+      $(".content").empty();      
+      var txt2 = $("<p></p>").text("Hp Dragonfly g4  Hinta: 1499e ovh: 1999e");
+      var txt3 = $("<p></p>").text("Lenovo Thinkpad X1 Carbon 14 Hinta: 1199e ovh: 1599e");
+      var txt4 = $("<p></p>").text("Dell Latitude 5420 14 Hinta: 999e ovh: 1299e");
+      var txt5 = $("<p></p>").text("Asus Zenbook 14 Hinta: 799e ovh: 999e");
+    $(".content").append(txt2, txt3, txt4, txt5)
     })
 
     $("#b5").click(function(){
-        $(".content").empty();
-        var txt1 = $("<p></p>").text("Teppo Testaaja p. 050-0012334");
-        var tx = $("<p></p>").text("tt@gmail.com");
-        $(".content").append(txt1, tx)
-        
-      })
-
+      $(".content").empty();
+      var txt1 = $("<p></p>").text("Teppo Testaaja p. 050-0012334");
+      var tx = $("<p></p>").text("tt@gmail.com");
+      $(".content").append(txt1, tx)        
+    });
+    
     })
